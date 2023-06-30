@@ -6,6 +6,7 @@ body {
     box-sizing: border-box;
     width: 100vw;
     height: 100vh;
+    background-color: #f4c76a;
 }
 
 p {
@@ -23,7 +24,7 @@ a:active {
 
 .sidebar {
     padding-left: 10%;
-    background-color: pink;
+    background-color: #f48a58;
 }
 
 .sidebar .nav {
@@ -36,7 +37,7 @@ a:active {
     grid-template-columns: 60% 40%;
     align-items: center;
     padding: 10px;
-    background-color: lightgray;
+    background-color: #d7d97d;
 }
 
 .search {
@@ -57,6 +58,7 @@ input {
 .userOne {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     gap: 15px
 }
 
@@ -74,7 +76,7 @@ input {
     padding: 10px;
     padding-top: 0;
     justify-content: space-between;
-    background-color: lightgray;
+    background-color: #d7d97d;
 
 }
 
@@ -106,8 +108,8 @@ input {
 }
 
 .menu button {
-    background-color: lightblue;
-    border-color: lightblue;
+    background-color: #60b39d;
+    border-color: #60b39d;
     font-size: 1rem;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -129,7 +131,6 @@ input {
 .projects {
     grid-column: 1 / 2;
     grid-row: 1/ 3;
-    background-color: whitesmoke;
     height: 80vh
 }
 
@@ -141,14 +142,14 @@ input {
     padding: 0;
     padding-left:10px;
     padding-right: 10px;
-    gap: 10px;
+    gap: 20px;
 }
 
 .card {
     background-color: white;
     width: 95%;
-    height: 23.7vh;
-    border-left: 10px solid orange;
+    height: 23vh;
+    border-left: 10px solid #f4192f;
     border-radius: 15px;
     box-shadow: 2px 2px 10px darkgrey
 }
@@ -156,19 +157,17 @@ input {
 .announcements {
     grid-column: 2 / 3;
     grid-row: 1/ 2;
-    background-color: lightblue;
     height: 40vh;
 }
 
 .trending {
     grid-column: 2 / 3;
     grid-row: 2/ 3;
-    background-color: aqua;
     height: 40vh;
 }
 
 .content h2 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: normal;
     margin: 10px;
 }
