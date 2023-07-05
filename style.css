@@ -167,7 +167,7 @@ input {
 .card {
     background-color: white;
     width: 95%;
-    height: 23vh;
+    height: 22.5vh;
     border-left: 10px solid #f4192f;
     border-radius: 15px;
     box-shadow: 2px 2px 10px darkgrey;
@@ -185,6 +185,7 @@ input {
     margin-top: 0;
     flex-grow: 1;
     max-width: 95%;
+    font-size: 14px;
 }
 
 .actions {
@@ -233,6 +234,7 @@ input {
 
 .announcements ul li p {
     margin: 0.5rem;
+    font-size: 14px;
 }
 
 .trending {
@@ -242,7 +244,7 @@ input {
 }
 
 .trending ul {
-    height: 83%;
+    height: 80%;
     list-style-type: none;
     padding-left: 0;
     display: flex;
